@@ -1,0 +1,115 @@
+Below is the documentation for the provided HTML and CSS code:
+
+## HTML Code Documentation:
+
+### `<!DOCTYPE html>`:
+- This declaration specifies that the document is an HTML5 document.
+
+### `<html lang="en">`:
+- The opening tag for the HTML document with the language attribute set to "en" (English).
+
+### `<head>`:
+- Contains meta-information about the HTML document like character encoding, viewport settings, and the document title.
+
+### `<meta charset="UTF-8">`:
+- Specifies the character encoding for the document, set to UTF-8 (Unicode Transformation Format - 8 bits).
+
+### `<meta name="viewport" content="width=device-width, initial-scale=1.0">`:
+- Sets the viewport properties, ensuring that the content width adjusts to the device's width and initial-scale is set to 1.
+
+### `<title>Animated portfolio</title>`:
+- Sets the title of the HTML document, which appears in the browser tab.
+
+### `<link rel="stylesheet" href="1.css"/>`:
+- Links an external CSS file named "1.css" to the HTML document to apply styles.
+
+### `<body>`:
+- Contains the visible content of the HTML document.
+
+### `<div class="hero">`:
+- Represents the hero section of the web page, which includes the navigation, details, and images.
+
+### `<nav>`:
+- Represents the navigation section, which includes the logo and navigation links.
+
+### `<img src="heroic.png" height="120px" width="120px" style="border-radius: 50%;" all=" ">`:
+- Displays the logo image with the source set to "heroic.png". It has a fixed height and width of 120px and a border radius of 50%.
+
+### `<ul>`:
+- An unordered list that holds the navigation links.
+
+### `<li>`:
+- Represents each item (link) in the unordered list.
+
+### `<a href="#">`:
+- The anchor tag that defines a hyperlink, with "#" as a placeholder for the link destination.
+
+### `<div class="detail">`:
+- A container div for the details section of the hero.
+
+### `<h1> I am a <span>student</span></h1>`:
+- Displays the main heading, which includes the text "I am a" and a nested span element with the text "student".
+
+### `<p>`:
+- Displays a paragraph of text describing the purpose of the portfolio website.
+
+### `<a href="#">Download cv</a>`:
+- Displays a hyperlink labeled "Download cv" with a placeholder "#" for the link destination.
+
+### `<div class="images">`:
+- A container div for the images in the hero section.
+
+### `<img src="img2.png" class="shape">`:
+- Displays an image with the source set to "img2.png" and a class of "shape".
+
+### `<img src=" " class="girl">`:
+- Displays an image with an empty source attribute and a class of "girl".
+
+## CSS Code Documentation:
+
+### `*{}`:
+- Applies the following styles to all elements in the HTML document.
+
+### `.hero{}`:
+- Styles the hero section, including its width, height, and background color.
+
+### `nav{}`:
+- Styles the navigation section, including its display, width, margin, padding, and alignment.
+
+### `nav ul li{}`:
+- Styles each list item (link) in the navigation, including its list style, display, and margin.
+
+### `nav ul li a{}`:
+- Styles the anchor tags within the list items, setting their color, text decoration, and font weight.
+
+### `nav ul li a:hover{}`:
+- Styles the anchor tags when hovered over, changing their color.
+
+### `.detail{}`:
+- Styles the details section, including its margin.
+
+### `.detail h1{}`:
+- Styles the main heading, including its font size, color, and margin.
+
+### `span{}`:
+- Styles the span element within the main heading, setting its color.
+
+### `.detail p{}`:
+- Styles the paragraph element, including its color and line height.
+
+### `.detail a{}`:
+- Styles the anchor tag within the details section, setting its background, padding, text decoration, font weight, color, display, margin, and border radius.
+
+### `.images{}`:
+- Styles the images container, including its width, height, position, bottom, and right.
+
+### `.images img{}`:
+- Styles the images within the container, including their height, position, left, bottom, and transform properties.
+
+### `.images:hover .shape{}`:
+- Styles the shape image within the images container when hovering over the container, changing its bottom position.
+
+### `.images:hover .girl{}`:
+- Styles the girl image within the images container when hovering over the container, changing its left position.
+
+Overall, this HTML and CSS code create an animated portfolio page with a hero section containing a navigation bar, details about the person, and two images. The page uses external CSS styles to customize the appearance and layout of the elements.
